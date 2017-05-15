@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+    <head>
+        <!--中文编码（GBK||GB2312） 国际编码（UTF-8）-->
+        <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+
+        <!--声明当前页面的三要素-->
+        <meta name="Keywords" content="关键字，关键词">
+        <meta name="Description" content="描述和简介">
+        <title>Account activation</title>
+        <link href="css/Account_activation.css" rel="stylesheet" type="text/css" >
+    </head>
+    <body>
+        <div class="picture">
+            <div class="left">
+                <div class="boy"></div>
+            </div>
+            <div class="con">
+                <div class="top">账号激活</div>
+                <div class="logo"></div>
+                <form class="form" action="" method="post">
+                    <table align="center" height="420" width="270">
+                        <tbody>
+                            <tr height="104px">
+                                <td align="center" colspan="2" style="line-height:26px;">
+                                    Hello,您好！<br/>
+                                    欢迎进入《武林英雄》游戏世界！<br/>
+                                    请设置您在游戏中的人物名称和性别！
+                                </td>
+                            </tr>
+                            <tr height="26px">
+                                <td align="right">人物名称:</td>
+                                <td align="left">
+                                    <input type="text" size="20" maxlength="6" value="" name=""/>
+                                </td>
+                            </tr>
+                            <tr height="26px">
+                                <td>&nbsp;</td>
+                                <td  padding="10px">(最多 6 个字符)</td>
+                            </tr>
+                            <tr height="40px"></tr>
+                            <tr height="30px">
+                                <td  align="right" >人物性别:</td>
+                                <td align="left" height="20">
+                                    <table width="180"><tbody><tr>
+                                        <td width="50%">
+                                            <label for="gender_1"><input id="gender_1" type="radio" name="gender" value="1" onclick="pick_gender (1)"> 男</label>
+                                        </td>
+                                        <td width="50%">
+                                            <label for="gender_2"><input id="gender_2" type="radio" name="gender" value="2" onclick="pick_gender (2)"> 女</label>
+                                        </td>
+                                    </tr></tbody></table>
+                                </td>
+                            </tr>
+                            <tr height="30px">
+                                <td>&nbsp;</td>
+                                <td align="left" height="80">
+                                    <table width="180"><tbody><tr>
+                                        <td width="50%">
+                                            <div class="gender_img_1">
+                                                <a id="select_boy" title="" titlecontent="点击选择男性角色进行游戏"></a>
+                                            </div>
+                                        </td>
+                                        <td width="50%">
+                                            <div class="gender_img_2">
+                                                <a id="select_girl"  title="" titlecontent="点击选择女性角色进行游戏"></a>
+                                            </div>
+                                        </td>
+                                    </tr></tbody></table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" colspan="2">
+                                    <input type="submit" class="button" value="开始游戏">
+                                    <input type="button" class="button" value="退出登录" >
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+            <div class="right">
+                <div class="girl"></div>
+            </div>
+        </div>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/Account_activation.js"></script>
+    </body>
+</html>

@@ -1,0 +1,377 @@
+*{margin:0;padding:0;}
+ol,ul{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+*{margin:0;padding:0;}
+ol,ul{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+body, div, td, p, h3, h4, h5, h6 {
+    font-family: "verdana";
+    word-break: break-all;
+    color: #7f5644;
+}
+body{background: url("../images/bg.gif")}
+
+/* 婊氬姩鏉¤缃� S */
+::-webkit-scrollbar{width: 5px;height: 6px;background: #ccc}
+::-webkit-scrollbar-button{background-color: #e5e5e5}
+::-webkit-scrollbar-track{background: #999}
+::-webkit-scrollbar-track-piece{background: #ccc}
+::-webkit-scrollbar-thumb{background: #666}
+::-webkit-scrollbar-corner{background: #82afff}
+::-webkit-scrollbar-resizer{background: #ff0bff}
+scrollbar{-moz-appearance: none !important;background: rgb(0,255,0) !important;}
+scrollbarbutton{-moz-appearance: none !important;background-color:rgb(0,0,255) !important; }
+scrollbarbutton:hover{-moz-appearance: none !important;background-color: rgb(255, 56, 50) !important; }
+/* E 婊氬姩鏉¤缃� */
+
+
+.picture_filed{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 970px;
+    height: 564px;
+    margin: -282px 0 0 -485px;
+    display: inline;
+    background: url("../images/filed_bg.jpg")no-repeat
+}
+.task{
+    width: 628px;
+    height: 548px;
+    position: absolute;
+    z-index: 99999;
+    background: url("../images/task.png")no-repeat;
+    background-size: 100% 100%;
+    top: 1%;
+    left: 24%;
+    display: none;
+}
+.task .doing{
+    position: relative;
+    width: 95px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 3px;
+    left: 30px;
+}
+.task .canget{
+    position: relative;
+    width: 97px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 3px;
+    left: 45px;
+}
+.task .finished{
+    position: relative;
+    width: 96px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 3px;
+    left: 60px;
+}
+.task .t_close{
+    position: relative;
+    width: 23px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 9px;
+    left: 297px;
+}
+.picture_filed .task .t_con{
+    width: 579px;
+    height: 130px;
+    float: left;
+    margin: 50px 0 0 19px;
+    display: inline-block;
+}
+.picture_filed .task .t_name{
+    float: left;
+    width: 100%;
+    margin-left: 8px;
+}
+.picture_filed .task .t_text{
+    float: left;
+    width: 548px;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 20px;
+    margin: 9px 0 0 15px;
+    background-color: #ece8e0;
+    border: 1px solid #b4b4b4;
+}
+
+.picture_filed .left{
+    width: 206px;
+    height: 519px;
+    margin: 20px 12px 0 13px;
+    float: left;
+}
+.picture_filed .left .name{
+    float: left;
+    position: relative;
+    top: 205px;
+    left: 0;
+    margin: 5px 0 0 29px ;
+    font-weight: 600;
+    height: 28px;
+    line-height: 28px;
+}
+.picture_filed .left .button{
+    width: 168px;
+    position: relative;
+    top: 205px;
+    left: 0;
+    height: 30px;
+    float: left;
+    margin: 9px 0 0 17px;
+}
+.picture_filed .left .button input{
+    width: 41px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+}
+.picture_filed .left .lv{
+    float: left;
+    position: relative;
+    top: 206px;
+    left: 0;
+    height: 21px;
+    margin: 3px 0 0 58px ;
+    width: 100px;
+}
+
+.picture_filed .left  .experience{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 201px;
+    left: 0;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.picture_filed .left  .life{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 195px;
+    left: 0;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.picture_filed .left  .attack{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 191px;
+    left: 18px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.picture_filed .left  .defense{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 188px;
+    left: 18px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.picture_filed .left  .arena_rank{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 184px;
+    left: 53px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.picture_filed .left  .money{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 181px;
+    left: 3px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+
+.picture_filed .right{
+    width: 723px;
+    height: 527px;
+    float: left;
+    margin: 14px 0 0 0px;
+}
+.picture_filed .right .r_con{
+    width: 700px;
+    height: 495px;
+    position: absolute;
+    margin: 14px 0 0 10px;
+}
+.picture_filed .right .r_con .map{
+    width: 179px;
+    height: 308px;
+    margin: 26px 0 0 0px;
+    float: left;
+}
+.picture_filed .right .r_con .map input{
+    width: 45px;
+    height: 30px;
+    cursor:pointer;
+    position: relative;
+    background-color: transparent;
+    border: none;
+}
+.picture_filed .right .r_con .map .button_1{
+    top:35px;
+    left: 50px;
+}
+.picture_filed .right .r_con .map .button_2{
+    top:82px;
+    left: 32px;
+}
+.picture_filed .right .r_con .map .button_3{
+    top:142px;
+    left: -37px;
+}
+.picture_filed .right .r_con .map .button_4{
+    top:146px;
+    left: 94px;
+}
+.picture_filed .right .r_con .map .button_5{
+    top:195px;
+    left: 66px;
+}
+.picture_filed .right .r_con .map .button_6{
+    top:235px;
+    left: 28px;
+}
+
+.picture_filed .right .r_con .con{
+    width: 292px;
+    height: 327px;
+    margin: 0 10px 0 11px;
+    border: 1px solid #c3b8b1;
+    float: left;
+    padding: 0 7px 7px 7px;
+    background: #f5f2ea url("../images/field-box-bg.gif") repeat-x;
+}
+.picture_filed .right .r_con .first{
+    display: block;
+}
+.picture_filed .right .r_con .second{
+    display: none;
+}
+.picture_filed .right .r_con .third{
+    display: none;
+}
+.picture_filed .right .r_con .fourth{
+    display: none;
+}
+.picture_filed .right .r_con .fifth{
+    display: none;
+}
+.picture_filed .right .r_con .sixed{
+    display: none;
+}
+.picture_filed .right .r_con .con_main{
+    height: 325px;
+    background: url("../images/field-bg.gif") no-repeat bottom right;
+}
+.picture_filed .right .r_con .con .text_title{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 7px 0 15px 0;
+    text-decoration:underline
+}
+.picture_filed .right .r_con .con  .text_title:hover{
+    color: #ff3810;
+}
+.picture_filed .right .r_con .con  .scene_des{
+    font-size: 12px;
+    letter-spacing:2px;
+    line-height: 20px;
+}
+.picture_filed .right .r_con .con  .monster{
+    font-size: 12px;
+    height: 32px;
+    width: 168px;
+    margin-top: 30px;
+}
+.picture_filed .right .r_con .con  .monster img{
+    float: left;
+}
+.picture_filed .right .r_con .con  .monster .m_mes{
+    float: left;
+    margin-left: 5px;
+}
+.picture_filed .right .r_con .con  .monster .m_mes .m_name{
+    height: 19px;
+}
+.picture_filed .right .r_con .fight_mes{
+    width: 180px;
+    height: 290px;
+    position:relative ;
+    top: 34px;
+    left: 8px;
+    overflow: auto;
+}
+.picture_filed .right .r_con .fight_mes div{
+    border-bottom: 1px solid #e5e5e5;
+    height:40px;
+    font-size: 14px;
+    margin-bottom:9px;
+}
+.picture_filed .right .r_con .f_task{
+    height: 148.46px;
+    width: 100%;
+    float: left;
+    margin-top: 11px;
+    border: 2px solid #c3b8b1;
+    background: #f5f2ea url("../images/field-switch-bg.gif") repeat-y;
+}
+.picture_filed .right .r_con .f_task a{
+    float: left;
+    width: 104px;
+    font-size: 14px;
+    margin: 8px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    line-height: 31px;
+    height: 31px;
+    text-decoration: none;
+    color:#7f5644;
+    background: url("../images/field-switch-button.gif") no-repeat;
+}
+.picture_filed .right .r_con .f_task .t_con{
+    width: 579px;
+    height: 130px;
+    float: left;
+    margin: 8px 0 0 8px;
+}
+.picture_filed .right .r_con .f_task .t_con .t_name{
+    float: left;
+    width: 100%;
+    margin-left: 8px;
+}
+.picture_filed .right .r_con .f_task .t_con .t_text {
+    float: left;
+    width: 548px;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 20px;
+    margin: 9px 0 0 15px;
+    background-color: #ece8e0;
+    border: 1px solid #b4b4b4;
+}

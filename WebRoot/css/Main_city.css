@@ -1,0 +1,320 @@
+*{margin:0;padding:0;}
+ol,ul{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+*{margin:0;padding:0;}
+ol,ul{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+body, div, td, p, h3, h4, h5, h6 {
+    font-family: "verdana";
+    word-break: break-all;
+    color: #7f5644;
+}
+
+/* 婊氬姩鏉¤缃� S */
+::-webkit-scrollbar{width: 5px;height: 6px;background: #ccc}
+::-webkit-scrollbar-button{background-color: #e5e5e5}
+::-webkit-scrollbar-track{background: #999}
+::-webkit-scrollbar-track-piece{background: #ccc}
+::-webkit-scrollbar-thumb{background: #666}
+::-webkit-scrollbar-corner{background: #82afff}
+::-webkit-scrollbar-resizer{background: #ff0bff}
+scrollbar{-moz-appearance: none !important;background: rgb(0,255,0) !important;}
+scrollbarbutton{-moz-appearance: none !important;background-color:rgb(0,0,255) !important; }
+scrollbarbutton:hover{-moz-appearance: none !important;background-color: rgb(255, 56, 50) !important; }
+/* E 婊氬姩鏉¤缃� */
+
+
+body{background: url("../images/bg.gif")}
+.picture{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 970px;
+    height: 564px;
+    margin: -282px 0 0 -485px;
+    display: inline;
+    background: url("../images/u263.jpg")no-repeat
+}
+.task{
+    width: 628px;
+    height: 548px;
+    position: absolute;
+    z-index: 99999;
+    background: url("../images/task.png")no-repeat;
+    background-size: 100% 100%;
+    top: 1%;
+    left: 24%;
+    display: none;
+}
+.task .doing{
+    position: relative;
+    width: 95px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 3px;
+    left: 30px;
+}
+.task .canget{
+    position: relative;
+    width: 97px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 3px;
+    left: 45px;
+}
+.task .finished{
+    position: relative;
+    width: 96px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 3px;
+    left: 60px;
+}
+ .task .t_close{
+    position: relative;
+    width: 23px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 9px;
+    left: 297px;
+}
+.picture .task .t_con{
+    width: 579px;
+    height: 130px;
+    float: left;
+    margin: 50px 0 0 19px;
+    display: inline-block;
+}
+.picture .task .t_name{
+    float: left;
+    width: 100%;
+    margin-left: 8px;
+}
+.picture .task .t_text{
+    float: left;
+    width: 548px;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 20px;
+    margin: 9px 0 0 15px;
+    background-color: #ece8e0;
+    border: 1px solid #b4b4b4;
+}
+
+.picture .left{
+    width: 206px;
+    height: 519px;
+    margin: 20px 12px 0 13px;
+    float: left;
+}
+.picture .left .name{
+    float: left;
+    position: relative;
+    top: 205px;
+    left: 0;
+    margin: 5px 0 0 29px ;
+    font-weight: 600;
+    height: 28px;
+    line-height: 28px;
+}
+.picture .left .button{
+    width: 168px;
+    position: relative;
+    top: 205px;
+    left: 0;
+    height: 30px;
+    float: left;
+    margin: 9px 0 0 17px;
+}
+.picture .left .button input{
+    width: 41px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.picture .left .lv{
+    float: left;
+    position: relative;
+    top: 204px;
+    left: 3px;
+    height: 21px;
+    margin: 3px 0 0 58px ;
+    width: 100px;
+}
+
+.picture .left  .experience{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 199px;
+    left: 3px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.picture .left  .life{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 193px;
+    left: 3px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.picture .left  .attack{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 189px;
+    left: 21px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.picture .left  .defense{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 186px;
+    left: 21px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.picture .left  .arena_rank{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 182px;
+    left: 56px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.picture .left  .money{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 180px;
+    left: 6px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+
+.picture .city{
+    width: 723px;
+    height: 519px;
+    float: left;
+    margin: 18px 0 0 1px;
+}
+.picture .city .no{
+    position: absolute;
+    width: 60%;
+    height: 170px;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    color:white;
+    padding-top: 80px;
+    z-index: 10;
+    top: 150px;
+    left: 300px;
+    display: none;
+}
+.picture .city .no .close{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 26px;
+}
+.picture .city .store{
+    width: 723px;
+    height: 519px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.picture .city .store a{
+    position: relative;
+    width: 60px;
+    height: 20px;
+}
+.picture .city .store a input{
+    width: 60px;
+    height: 21px;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    font-family: "妤蜂綋";
+    cursor: pointer;
+}
+.picture .city .store .a1 {
+    top: 334px;
+    left: 315px;
+    font-size: 16px;
+}
+.picture .city .store .a2 {
+    top: 145px;
+    left: 115px;
+    font-size: 16px;
+}
+.picture .city .store .a3 {
+    top: 293px;
+    left: -69px;
+    font-size: 16px;
+}
+.picture .city .store .a4 {
+    top: 397.5px;
+    left: -24px;
+    font-size: 16px;
+}
+.picture .city .store .a5 {
+    top: 188px;
+    left: 53px;
+    font-size: 16px;
+}
+.picture .city .store .a6 {
+    top: 251px;
+    left: -143px;
+    font-size: 16px;
+}
+.picture .city .store .a7 {
+    top: 157px;
+    left: 162px;
+    font-size: 16px;
+}
+.picture .city .store .a8 {
+    top: 251px;
+    left: 96px;
+    font-size: 14px;
+}
+.picture .city .store .a9 {
+    top: 104px;
+    left: -219px;
+    font-size: 16px;
+}
+.picture .city .store .a10 {
+    top: 104px;
+    left: -402px;
+    font-size: 16px;
+}
+.picture .city .store .a11 {
+    top: 429.5px;
+    left: -207px;
+    font-size: 16px;
+}
+.picture .city .store .a12 {
+    top: 161px;
+    left: 394px;
+    font-size: 16px;
+}

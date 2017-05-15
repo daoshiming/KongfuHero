@@ -1,0 +1,398 @@
+*{margin:0;padding:0;}
+ol,ul{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+*{margin:0;padding:0;}
+ol,ul{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+body, div, td, p, h3, h4, h5, h6 {
+    font-family: "verdana";
+    word-break: break-all;
+    color: #7f5644;
+}
+
+/* 婊氬姩鏉¤缃� S */
+::-webkit-scrollbar{width: 5px;height: 6px;background: #ccc}
+::-webkit-scrollbar-button{background-color: #e5e5e5}
+::-webkit-scrollbar-track{background: #999}
+::-webkit-scrollbar-track-piece{background: #ccc}
+::-webkit-scrollbar-thumb{background: #666}
+::-webkit-scrollbar-corner{background: #82afff}
+::-webkit-scrollbar-resizer{background: #ff0bff}
+scrollbar{-moz-appearance: none !important;background: rgb(0,255,0) !important;}
+scrollbarbutton{-moz-appearance: none !important;background-color:rgb(0,0,255) !important; }
+scrollbarbutton:hover{-moz-appearance: none !important;background-color: rgb(255, 56, 50) !important; }
+/* E 婊氬姩鏉¤缃� */
+
+
+body{background: url("../images/bg.gif")}
+.armor_bg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 970px;
+    height: 564px;
+    margin: -282px 0 0 -485px;
+    display: inline;
+    background: url("../images/fangju_bg.jpg")no-repeat;
+}
+.task{
+    width: 628px;
+    height: 548px;
+    position: absolute;
+    z-index: 99999;
+    background: url("../images/task.png")no-repeat;
+    background-size: 100% 100%;
+    top: 1%;
+    left: 24%;
+    display: none;
+}
+.task .doing{
+    position: relative;
+    width: 95px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 3px;
+    left: 30px;
+}
+.task .canget{
+    position: relative;
+    width: 97px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 3px;
+    left: 45px;
+}
+.task .finished{
+    position: relative;
+    width: 96px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 3px;
+    left: 60px;
+}
+.task .t_close{
+    position: relative;
+    width: 23px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 9px;
+    left: 297px;
+}
+.armor_bg .task .t_con{
+    width: 579px;
+    height: 130px;
+    float: left;
+    margin: 50px 0 0 19px;
+    display: inline-block;
+}
+.armor_bg .task .t_name{
+    float: left;
+    width: 100%;
+    margin-left: 8px;
+}
+.armor_bg .task .t_text{
+    float: left;
+    width: 548px;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 20px;
+    margin: 9px 0 0 15px;
+    background-color: #ece8e0;
+    border: 1px solid #b4b4b4;
+}
+
+.armor_bg .left{
+    width: 206px;
+    height: 519px;
+    margin: 20px 10px 0 13px;
+    float: left;
+}
+.armor_bg .left .name{
+    float: left;
+    position: relative;
+    top: 205px;
+    left: 0;
+    margin: 5px 0 0 29px ;
+    font-weight: 600;
+    height: 28px;
+    line-height: 28px;
+}
+.armor_bg .left .button{
+    width: 168px;
+    position: relative;
+    top: 205px;
+    left: 0;
+    height: 30px;
+    float: left;
+    margin: 9px 0 0 17px;
+}
+.armor_bg .left .button input{
+    width: 41px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.armor_bg .left .lv{
+    float: left;
+    position: relative;
+    top: 206px;
+    left: 0;
+    height: 21px;
+    margin: 3px 0 0 58px ;
+    width: 100px;
+}
+
+.armor_bg .left  .experience{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 201px;
+    left: 0;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.armor_bg .left  .life{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 195px;
+    left: 0;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.armor_bg .left  .attack{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 191px;
+    left: 18px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.armor_bg .left  .defense{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 188px;
+    left: 18px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.armor_bg .left  .arena_rank{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 184px;
+    left: 53px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.armor_bg .left  .money{
+    width: 115.7px;
+    height: 21px;
+    position: relative;
+    top: 181px;
+    left: 3px;
+    float: left;
+    margin: 5.6px 0 0 59px;
+}
+.armor_bg .right{
+    height: 523px;
+    width: 724px;
+    float: left;
+    margin: 17px 0 0 2px;
+}
+
+.armor_bg .right .no{
+    position: absolute;
+    width: 60%;
+    height: 170px;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    color:white;
+    padding-top: 80px;
+    z-index: 10;
+    top: 150px;
+    left: 300px;
+    display: none;
+}
+.armor_bg .right .no .close{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 26px;
+}
+
+.armor_bg .right .button{
+    height: 25px;
+    width: 674px;
+    top: -10px;
+    left: 53px;
+    position: relative;
+}
+.armor_bg .right .button a{
+    width: 80px;
+    height: 25px;
+    margin-right: 21px;
+    position: relative;
+    top: -5px;
+    left: 3px;
+
+}
+.armor_bg .right a input{
+    width: 80px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.armor_bg .right .button .close{
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin: 0;
+    position: relative;
+    top: 6px;
+    left:-4px;
+}
+.armor_bg .right .button .close input{
+    width: 16px;
+    height: 16px;
+}
+.armor_bg .right .e_list{
+    width: 146px;
+    height: 214px;
+    position: relative;
+    top: 220px;
+    left: 36px;
+}
+.armor_bg .right .e_list div{
+    width: 47px;
+    height: 79px;
+    cursor: pointer;
+    position: relative;
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+.armor_bg .right .people{
+    position: relative;
+    width: 242px;
+    height: 348px;
+    top: -215px;
+    left: 471px;
+    display: inline-block;
+}
+.armor_bg .right .wuqi{
+    position: relative;
+    width: 47px;
+    height: 107px;
+    cursor: pointer;
+    top: 31px;
+    left: 11px;
+}
+.armor_bg .right .yifu{
+    position: relative;
+    width: 47px;
+    height: 78px;
+    cursor: pointer;
+    top: -42px;
+    left: 87px;
+}
+.armor_bg .right .kuzi{
+    position: relative;
+    width: 47px;
+    height: 107px;
+    cursor: pointer;
+    top: -36px;
+    left: 87px;
+}
+.armor_bg .right .package{
+    position: absolute;
+    width: 447px;
+    height: 106px;
+    top: 401px;
+    left: 469px;
+    display: inline-block;
+    overflow: auto;
+}
+.armor_bg .right .package div{
+    width: 47px;
+    height: 107px;
+    cursor: pointer;
+    float: left;
+    margin-right: 2.6px;
+}
+.armor_bg .right .armor_close{
+    position: relative;
+    width: 23px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    top: -570px;
+    left: 4px;
+    cursor: pointer;
+}
+.ifWear div{
+    cursor: pointer;
+}
+.ifWear{
+    position: absolute;
+    width: 60%;
+    height: 170px;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    color:white;
+    padding-top: 80px;
+    z-index: 10;
+    top: 150px;
+    left: 300px;
+    display: none;
+}
+.ifWear .wear{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 60px;
+    left: 350px;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: #359a95;
+}
+.ifWear .sell{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+    left: 140px;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: #359a95;
+}
+.ifWear .close{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 26px;
+    color: #fff;
+
+}

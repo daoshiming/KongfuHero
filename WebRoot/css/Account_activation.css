@@ -1,0 +1,53 @@
+*{margin:0;padding:0;}
+ol,ul{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+*{margin:0;padding:0;}
+ol,ul{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+body, div, td, p, h3, h4, h5, h6 {
+    font-family: "verdana";
+    word-break: break-all;
+    color: #7f5644;
+}
+
+/* 滚动条设置 S */
+::-webkit-scrollbar{width: 5px;height: 6px;background: #ccc}
+::-webkit-scrollbar-button{background-color: #e5e5e5}
+::-webkit-scrollbar-track{background: #999}
+::-webkit-scrollbar-track-piece{background: #ccc}
+::-webkit-scrollbar-thumb{background: #666}
+::-webkit-scrollbar-corner{background: #82afff}
+::-webkit-scrollbar-resizer{background: #ff0bff}
+scrollbar{-moz-appearance: none !important;background: rgb(0,255,0) !important;}
+scrollbarbutton{-moz-appearance: none !important;background-color:rgb(0,0,255) !important; }
+scrollbarbutton:hover{-moz-appearance: none !important;background-color: rgb(255, 56, 50) !important; }
+/* E 滚动条设置 */
+
+
+tr{display: table-row;vertical-align: inherit;border-color: inherit;}
+input{height: 15px;line-height: 15px;margin-left: 10px}
+td{font-family: "楷体";word-break: break-all;color: #7f5644;;font-size: 14px}
+table {display: table;border-collapse: separate;border-spacing: 2px;border-color: grey;margin: auto}
+tbody{display: table-row-group; vertical-align: middle;border-color: inherit;}
+input, textarea {color: #925141; background: #ebe4db url(http://static.hero.9wee.com/styles/default/input-bg.gif) left top repeat-x;border: 1px solid #938c8a;font-family: "楷体"; padding: 2px;}
+.button, .button:hover{border: none;text-align: center;text-decoration: none;cursor: pointer;padding: 0;}
+
+
+body{background: url("../images/bg.gif")}
+.picture{position: absolute;top: 50%;left: 50%;width: 970px;height: 564px;margin: -282px 0 0 -485px;display: inline;}
+.picture .left{width: 329px;height: 564px;float: left;background: url("../images/boy-left.gif")center center no-repeat}
+.picture .left .boy{width: 100%;height: 100%;background: url("../images/boy.jpg")center right no-repeat;}
+.picture .con{width: 312px;height: 564px;float: left;background: url("../images/active-bg.gif")}
+.picture .con .top{width: 100%;height: 32px;background: url("../images/top-bg.gif")center center no-repeat;color: #030303;text-align: center;line-height: 32px;font-size: 14px;font-family: "楷体";}
+.picture .con .logo{width: 100%;height: 70px;background: url("../images/logo.gif")center center no-repeat;margin-top: 10px}
+.picture .con .form{width: 100%;height: 420px;margin: 0 auto}
+.picture .con .form .gender_img_1{width: 67px; height: 67px;background: url("../images/gender-1.gif") center center no-repeat;}
+.picture .con .form .gender_img_1 #select_boy{display: block;width: 67px;height: 67px;background: url("../images/gender-select.gif") center center no-repeat;}
+.picture .con .form .gender_img_2{width: 67px; height: 67px;background: url("../images/gender-2.gif") center center no-repeat;}
+.picture .con .form .gender_img_2 #select_girl{display: block;width: 67px;height: 67px;background: url("../images/gender-select.gif") center center no-repeat;}
+.picture .con .form .button{width: 102px;line-height: 27px;height: 27px;background:  url("../images/button-bg.gif") no-repeat;font-size:14px;}
+.picture .con .form .button:hover{width: 102px;line-height: 27px;height: 27px;background:  url("../images/button-bg-highlight.gif") no-repeat;font-size:14px;}
+.picture .right{width: 329px;height: 564px;float: left;background: url("../images/girl-right.gif")center center no-repeat}
+.picture .right .girl{width: 100%;height: 100%;background: url("../images/girl.jpg")center left no-repeat;}
